@@ -14,8 +14,8 @@ set(metis_md5 "6daba5e64ed86d46e038437eda720532")
 
 # SuiteSparse
 list(APPEND projects SuiteSparse)
-set(SuiteSparse_version "4.5.4")
-set(SuiteSparse_url "http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-4.5.4.tar.gz")
+set(SuiteSparse_version "4.2.1")
+set(SuiteSparse_url "http://faculty.cse.tamu.edu/davis/SuiteSparse/SuiteSparse-4.2.1.tar.gz")
 set(SuiteSparse_md5 "f6ab689442e64a1624a47aa220072d1b")
 
 # SuiteSparse and Metis for Windows
@@ -26,6 +26,6 @@ set(sscmake_md5 "cb7036e108b36d16aceca777f9c5d453")
 
 # Ceres
 list(APPEND projects ceres)
-set(ceres_version "1.8.0")
+set(ceres_version "1.12.0")
 set(ceres_url http://ceres-solver.org/ceres-solver-1.12.0.tar.gz)
 set(ceres_md5 "278a7b366881cc45e258da71464114d9")
