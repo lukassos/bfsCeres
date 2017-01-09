@@ -22,7 +22,7 @@ set(SuiteSparse_md5 "4628df9eeae10ae5f0c486f1ac982fce")
 list(APPEND projects sscmake)
 set(sscmake_version "master")
 set(sscmake_url https://github.com/jlblancoc/suitesparse-metis-for-windows/archive/master.tar.gz)
-set(sscmake_md5 "cb7036e108b36d16aceca777f9c5d453")
+set(sscmake_md5 "f7851205eca981fd78006693e0276b17")
 
 # Ceres
 list(APPEND projects ceres)
