@@ -9,8 +9,7 @@ set(eigen_md5 "e522cfd701168539b5c749ecd6145b65")
 # Metis
 list(APPEND projects metis)
 set(metis_version "5.1.0")
-http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz
-set(metis_url "http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/OLD/metis-${metis_version}.tar.gz")
+set(metis_url "http://glaros.dtc.umn.edu/gkhome/fetch/sw/metis/metis-5.1.0.tar.gz")
 set(metis_md5 "5465e67079419a69e0116de24fce58fe")
 
 # SuiteSparse
