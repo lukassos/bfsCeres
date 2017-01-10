@@ -2,6 +2,7 @@ ExternalProject_Add(metis
     DOWNLOAD_DIR ${download_dir}
     URL ${metis_url}
     URL_MD5 ${metis_md5}
+    PATCH_COMMAND ${MP_PATCH} -p2 -t -N < "${bfsCeres_PATCH_DIR}/metisgk.patch"
     UPDATE_COMMAND ""
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
