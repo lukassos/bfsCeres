@@ -1,10 +1,6 @@
-Index: GKlib/gk_arch.h
-IDEA additional info:
-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
-<+>UTF-8
-===================================================================
---- GKlib/gk_arch.h	(revision )
-+++ GKlib/gk_arch.h	(revision )
+diff -ur ../metis/GKlib/gk_arch.h ./GKlib/gk_arch.h
+--- ../metis/GKlib/gk_arch.h	(revision )
++++ ./GKlib/gk_arch.h	(revision )
 @@ -59,13 +59,17 @@
  #endif
  
